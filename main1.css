@@ -131,6 +131,82 @@ h1 {
     color: black;
     background-color: #ffffff;
 }
+p, main h1 {
+    text-align: center;
+    color: black;
+    font-size: 2.8em;
+    font-weight: 300;
+    padding: 50px;
+    margin: 0;
+}
+div.big-picture {
+    text-align: center;
+    background-image: url("img/cat2.jpg");
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+}
+div.big-picture span {
+    color:white;
+    font-weight: 600;
+    font-size:8em;
+    display: inline-block;
+    margin: 300px 0 300px 0;
+}
+/*gallery!!!*/
+div.boxone {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+div.firstg {
+    margin: 0 20px;
+    display: inline-block;
+    width: 20%;
+    height: 300px;
+    border: none;
+    background-position: center top ;
+    background-size: cover;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+div.one {
+    background-image: url("img/maine1.jpg");
+}
+div.two {
+    background-image: url("img/maine2.jpg");
+}
+div.tree {
+    background-image: url("img/maine3.jpg");
+}
+div.four {
+    background-image: url("img/maine4.jpg");
+}
+div.firstg:hover    {
+    box-shadow: 0 0 150px #000000;
+    transform: scale(1.5);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+/*footer*/
+footer {
+    width: inherit;
+    padding: 30px 0;
+    margin-top: 30px;
+    background: gainsboro;
+    text-align: center;
+}
+div.foot {
+    display: inline-block;
+
+}
+div.info {
+    position: absolute;
+    right: 30px;
+    margin-top: -30px;
+
+
+}
 
 
 
