@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
 body {
     width: 100%;
@@ -6,21 +6,28 @@ body {
     margin: 0;
     background-color: azure;
 }
-header  {
+header {
+    background-image: url("pic/cat3.jpg");
     width: 100%;
+    max-height: 200px;
     background-color: gray;
     height: 800px;
     margin: 0 auto;
     display: table;
     position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 nav {
     width: 100%;
-    background-color: black;
+    background-color: transparent;
     height: 80px;
     margin: 0;
     padding: 0;
+    opacity: 0.9;
 }
 .nav1 {
     width: 80%;
@@ -31,13 +38,16 @@ nav {
 
 .logo {
     width: 20%;
-    background-color: aquamarine;
+    background-color: transparent;
     margin: 0;
+}
+.logo img {
+    width: 100%;
 }
 
 .menu {
     width: 80%;
-    background-color: black;
+    background-color: transparent;
     margin: 0;
 }
 
@@ -57,7 +67,7 @@ a {text-decoration: none;
 
 .menu1 a {
     color: white;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 .menu1 a:hover {
     color: white;
@@ -71,19 +81,20 @@ a.login1 {
     background-color: transparent;
     padding: 5px 20px 5px 20px;
     border-radius: 3px;
-    color: white;
+    color: gray;
     opacity: 1;
 }
 a.login1:hover {
     color: black;
     background-color: white;
+    opacity: 1;
 }
 
 .center {
     margin: 0 auto;
     width: 80%;
-    min-height: 600px;
-    background-color: antiquewhite;
+    min-height: 800px;
+    background-color: transparent;
     display: table;
 }
 
@@ -91,15 +102,34 @@ a.login1:hover {
 .centertext {
     display: table-cell;
     text-align: center;
-    vertical-align: middle;
-    background-color: cadetblue;
+    vertical-align: bottom;
+    background-color: transparent;
+    padding-bottom: 40px;
 }
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 100;
+    color: black;
+    margin: 5px;
+
+}
+.centertext h2, a {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
     color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+
+}
+
+.centertext a:hover {
+    border: dotted white;
+    border-radius: 5px;
+    color: black;
+    background-color: #ffffff;
 }
 
 
